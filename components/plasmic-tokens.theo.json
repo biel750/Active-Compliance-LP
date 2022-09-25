@@ -1,0 +1,69 @@
+{
+  "props": [
+    {
+      "name": "H1",
+      "type": "fontsize",
+      "value": "32px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "fdVBcMZFKfbQD3WsHm8wo",
+        "id": "nhxsC7xgV"
+      }
+    },
+    {
+      "name": "H1 Height",
+      "type": "lineheight",
+      "value": "44px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "fdVBcMZFKfbQD3WsHm8wo",
+        "id": "vm3pWubtG"
+      }
+    },
+    {
+      "name": "H2",
+      "type": "fontsize",
+      "value": "16px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "fdVBcMZFKfbQD3WsHm8wo",
+        "id": "6WiM-UPT5"
+      }
+    },
+    {
+      "name": "H2 Height",
+      "type": "lineheight",
+      "value": "24px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "fdVBcMZFKfbQD3WsHm8wo",
+        "id": "5sxLhN1Vr"
+      }
+    },
+    {
+      "name": "Montserrat",
+      "type": "fontfamily",
+      "value": "Montserrat",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "fdVBcMZFKfbQD3WsHm8wo",
+        "id": "CmLVKC5gD"
+      }
+    },
+    {
+      "name": "Purple Use",
+      "type": "color",
+      "value": "#8050F2",
+      "category": "color",
+      "meta": {
+        "projectId": "fdVBcMZFKfbQD3WsHm8wo",
+        "id": "0afS5Q60P"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
