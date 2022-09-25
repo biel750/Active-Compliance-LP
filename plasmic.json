@@ -114,32 +114,6 @@
           "cssFilePath": "plasmic/active_compliance/PlasmicHome.module.css",
           "scheme": "blackbox",
           "componentType": "page"
-        },
-        {
-          "id": "3MNRs7fqn3hAlR",
-          "name": "FooterCreattor",
-          "type": "managed",
-          "projectId": "fdVBcMZFKfbQD3WsHm8wo",
-          "renderModuleFilePath": "plasmic/active_compliance/PlasmicFooterCreattor.tsx",
-          "importSpec": {
-            "modulePath": "FooterCreattor.tsx"
-          },
-          "cssFilePath": "plasmic/active_compliance/PlasmicFooterCreattor.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "bUxVNZ5IV6i2bm",
-          "name": "HeaderCreattor",
-          "type": "managed",
-          "projectId": "fdVBcMZFKfbQD3WsHm8wo",
-          "renderModuleFilePath": "plasmic/active_compliance/PlasmicHeaderCreattor.tsx",
-          "importSpec": {
-            "modulePath": "HeaderCreattor.tsx"
-          },
-          "cssFilePath": "plasmic/active_compliance/PlasmicHeaderCreattor.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
         }
       ],
       "icons": [
@@ -279,16 +253,6 @@
       "indirect": false,
       "globalContextsFilePath": "plasmic/active_compliance/PlasmicGlobalContextsProvider.tsx",
       "codeComponents": [
-        {
-          "id": "eExYr95IkB7HJf",
-          "name": "Menu",
-          "componentImportPath": "./components/Menu"
-        },
-        {
-          "id": "vKq9K7q_AFm0P3",
-          "name": "HeaderWrapper",
-          "componentImportPath": "./components/HeaderWrapper"
-        },
         {
           "id": "sVywWATuZE-7qC",
           "name": "PlasmicHead",

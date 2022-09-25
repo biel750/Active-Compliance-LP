@@ -34,8 +34,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import { HeaderWrapper } from "../../HeaderWrapper"; // plasmic-import: vKq9K7q_AFm0P3/codeComponent
-import HeaderCreattor from "../../HeaderCreattor"; // plasmic-import: bUxVNZ5IV6i2bm/component
 import Button from "../../Button"; // plasmic-import: YEQmzCtQKI4OO/component
 import { Reveal } from "@plasmicpkgs/react-awesome-reveal"; // plasmic-import: R6s1FdhksG/codeComponent
 
@@ -61,11 +59,8 @@ export const PlasmicHome__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHome__OverridesType = {
   root?: p.Flex<"div">;
-  headerWrapper?: p.Flex<typeof HeaderWrapper>;
-  headerCreattor?: p.Flex<typeof HeaderCreattor>;
   reveal?: p.Flex<typeof Reveal>;
   h1?: p.Flex<"h1">;
-  footer?: p.Flex<"footer">;
 };
 
 export interface DefaultHomeProps {}
@@ -124,88 +119,6 @@ function PlasmicHome__RenderFunc(props: {
             sty.root
           )}
         >
-          <HeaderWrapper
-            data-plasmic-name={"headerWrapper"}
-            data-plasmic-override={overrides.headerWrapper}
-            className={classNames("__wab_instance", sty.headerWrapper)}
-          >
-            <HeaderCreattor
-              data-plasmic-name={"headerCreattor"}
-              data-plasmic-override={overrides.headerCreattor}
-              className={classNames("__wab_instance", sty.headerCreattor)}
-            >
-              {true ? (
-                <div className={classNames(projectcss.all, sty.freeBox__vqLA)}>
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__cSWo
-                    )}
-                    component={Link}
-                    href={`/`}
-                    platform={"nextjs"}
-                  >
-                    {"Início"}
-                  </p.PlasmicLink>
-
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__cjOY
-                    )}
-                    component={Link}
-                    platform={"nextjs"}
-                  >
-                    {"Quem somos"}
-                  </p.PlasmicLink>
-
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__wIPu
-                    )}
-                    component={Link}
-                    platform={"nextjs"}
-                  >
-                    {"Como funciona?"}
-                  </p.PlasmicLink>
-
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link___9DJwp
-                    )}
-                    component={Link}
-                    platform={"nextjs"}
-                  >
-                    {"Avaliações"}
-                  </p.PlasmicLink>
-
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__zaUzA
-                    )}
-                    component={Link}
-                    platform={"nextjs"}
-                  >
-                    {"Creattors"}
-                  </p.PlasmicLink>
-                </div>
-              ) : null}
-            </HeaderCreattor>
-          </HeaderWrapper>
-
           {true ? (
             <section
               className={classNames(projectcss.all, sty.section__mNpN9)}
@@ -1234,384 +1147,6 @@ function PlasmicHome__RenderFunc(props: {
               </div>
             </section>
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-          ) ? (
-            <footer
-              data-plasmic-name={"footer"}
-              data-plasmic-override={overrides.footer}
-              className={classNames(projectcss.all, sty.footer)}
-            >
-              {(
-                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-              ) ? (
-                <div className={classNames(projectcss.all, sty.freeBox__we8Fd)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pH1D
-                    )}
-                  >
-                    {"Na mídia"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___1FpDl
-                    )}
-                  >
-                    {"Veja o que estão falando da gente"}
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__yw419)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__o4TUi)}
-                      displayHeight={"26px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"130px" as const}
-                      loading={"lazy" as const}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__f4RbU)}
-                      displayHeight={"21px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"139px" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__niieO)}
-                      displayHeight={"21px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"127px" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__c6JP)}
-                      displayHeight={"auto" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__jss7)}
-                      displayHeight={"36px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/active_compliance/images/group50641Png.png",
-                        fullWidth: 36,
-                        fullHeight: 36,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__z3YNb)}
-                      displayHeight={"36px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/active_compliance/images/group50642Png.png",
-                        fullWidth: 36,
-                        fullHeight: 36,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__pcbNi)}
-                      displayHeight={"36px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/active_compliance/images/group50643Png.png",
-                        fullWidth: 36,
-                        fullHeight: 36,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__kNtPl)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                  />
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pWum1
-                    )}
-                  >
-                    {"© 2022 Creattor.io. All rights reserved."}
-                  </div>
-                </div>
-              ) : null}
-              {(
-                hasVariant(globalVariants, "screen", "mobileOnly")
-                  ? true
-                  : false
-              ) ? (
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___3Ty21)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___8HElW
-                    )}
-                  >
-                    {"Na mídia"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vonS2
-                    )}
-                  >
-                    {"Veja o que estão falando da gente"}
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__k8KK)}
-                  >
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__kad81
-                        )}
-                      >
-                        {(
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? true
-                            : true
-                        ) ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__a3Wrv
-                            )}
-                          >
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__bgza)}
-                              displayHeight={"26px" as const}
-                              displayMaxHeight={"none" as const}
-                              displayMaxWidth={"100%" as const}
-                              displayMinHeight={"0" as const}
-                              displayMinWidth={"0" as const}
-                              displayWidth={"130px" as const}
-                              loading={"lazy" as const}
-                            />
-
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img___8U7Mb)}
-                              displayHeight={"21px" as const}
-                              displayMaxHeight={"none" as const}
-                              displayMaxWidth={
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? ("168px" as const)
-                                  : ("139px" as const)
-                              }
-                              displayMinHeight={"0" as const}
-                              displayMinWidth={"0" as const}
-                              displayWidth={
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? ("100%" as const)
-                                  : ("auto" as const)
-                              }
-                              loading={"lazy" as const}
-                            />
-                          </div>
-                        ) : null}
-                        {(
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? true
-                            : true
-                        ) ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__y6V3N
-                            )}
-                          >
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__gKmI)}
-                              displayHeight={"21px" as const}
-                              displayMaxHeight={"none" as const}
-                              displayMaxWidth={"127px" as const}
-                              displayMinHeight={"0" as const}
-                              displayMinWidth={"0" as const}
-                              displayWidth={"auto" as const}
-                              loading={"lazy" as const}
-                            />
-
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__ir6G)}
-                              displayHeight={"auto" as const}
-                              displayMaxHeight={"none" as const}
-                              displayMaxWidth={"none" as const}
-                              displayMinHeight={"0" as const}
-                              displayMinWidth={"0" as const}
-                              displayWidth={"auto" as const}
-                              loading={"lazy" as const}
-                            />
-                          </div>
-                        ) : null}
-                      </div>
-                    ) : null}
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__z2Smp)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___4UaPr)}
-                      displayHeight={"36px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/active_compliance/images/group50641Png.png",
-                        fullWidth: 36,
-                        fullHeight: 36,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__kUhoj)}
-                      displayHeight={"36px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/active_compliance/images/group50642Png.png",
-                        fullWidth: 36,
-                        fullHeight: 36,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__aBgZh)}
-                      displayHeight={"36px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/active_compliance/images/group50643Png.png",
-                        fullWidth: 36,
-                        fullHeight: 36,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img___9SksK)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                  />
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__d7Mx1
-                    )}
-                  >
-                    {"© 2022 Creattor.io. All rights reserved."}
-                  </div>
-                </div>
-              ) : null}
-            </footer>
-          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -1619,23 +1154,17 @@ function PlasmicHome__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "headerWrapper", "headerCreattor", "reveal", "h1", "footer"],
-  headerWrapper: ["headerWrapper", "headerCreattor"],
-  headerCreattor: ["headerCreattor"],
+  root: ["root", "reveal", "h1"],
   reveal: ["reveal", "h1"],
-  h1: ["h1"],
-  footer: ["footer"]
+  h1: ["h1"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  headerWrapper: typeof HeaderWrapper;
-  headerCreattor: typeof HeaderCreattor;
   reveal: typeof Reveal;
   h1: "h1";
-  footer: "footer";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1699,11 +1228,8 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    headerWrapper: makeNodeComponent("headerWrapper"),
-    headerCreattor: makeNodeComponent("headerCreattor"),
     reveal: makeNodeComponent("reveal"),
     h1: makeNodeComponent("h1"),
-    footer: makeNodeComponent("footer"),
 
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
