@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -38,7 +38,8 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "8PtdGodUbexNYgkuyBUcWu",
@@ -57,7 +58,8 @@
           "name": "EmbedCss",
           "componentImportPath": "@plasmicpkgs/plasmic-embed-css"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "szjgMQpPpxhmkjnaBvZQJG",
@@ -76,7 +78,8 @@
           "name": "Tilt",
           "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "fdVBcMZFKfbQD3WsHm8wo",
@@ -277,11 +280,6 @@
       "globalContextsFilePath": "plasmic/active_compliance/PlasmicGlobalContextsProvider.tsx",
       "codeComponents": [
         {
-          "id": "ElNfVx18MAGRwB",
-          "name": "ModalWrapper",
-          "componentImportPath": "./components/ModalWrapper"
-        },
-        {
           "id": "eExYr95IkB7HJf",
           "name": "Menu",
           "componentImportPath": "./components/Menu"
@@ -295,11 +293,6 @@
           "id": "sVywWATuZE-7qC",
           "name": "PlasmicHead",
           "componentImportPath": "@plasmicapp/react-web"
-        },
-        {
-          "id": "kYjVwBaey5pMpT",
-          "name": "TabsContent",
-          "componentImportPath": "./components/TabsContent"
         },
         {
           "id": "VA1Qz6wQOi",
