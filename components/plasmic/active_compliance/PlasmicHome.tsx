@@ -254,7 +254,7 @@ function PlasmicHome__RenderFunc(props: {
                           sty.text__t2Npt
                         )}
                       >
-                        {"Saiba mais"}
+                        {"Faça seu orçamento"}
                       </div>
                     </Button>
                   ) : null}

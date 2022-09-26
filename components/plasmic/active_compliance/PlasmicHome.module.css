@@ -25,7 +25,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 0px;
 }
 .section__mNpN9 {
   display: flex;
@@ -55,7 +55,7 @@
     background: #fcfcfc;
     flex-column-gap: 0px;
     border-radius: 0px;
-    padding: 40px 0px;
+    padding: 40px 10px;
     margin: 0px;
   }
 }
@@ -330,7 +330,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    padding: 0px;
+    padding: 0px 10px;
   }
 }
 .columns___75Bm0 {
@@ -549,7 +549,7 @@
     max-width: 368px;
     height: 56px;
     flex-shrink: 0;
-    display: flex;
+    display: none;
     margin: 44px 24px 64px;
   }
 }
@@ -583,6 +583,11 @@
   background: #8050f2;
   min-width: 0;
   padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__b5CtN {
+    padding: 0px 10px;
+  }
 }
 .reveal:global(.__wab_instance) {
   max-width: 100%;
@@ -786,7 +791,7 @@
     display: flex;
     flex-direction: column;
     flex-column-gap: 0px;
-    margin: 30px 24px 0px;
+    margin: 30px 0px;
   }
 }
 .freeBox__kFuph {
@@ -821,6 +826,9 @@
   .freeBox__kFuph {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 572px;
+    min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -828,6 +836,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 30px);
@@ -867,6 +876,7 @@
     justify-content: flex-start;
     align-items: center;
     background: #8050f2;
+    padding: 0px 10px 20px;
   }
 }
 .img__yzMqv {
@@ -967,6 +977,7 @@
     justify-content: flex-start;
     align-items: center;
     background: #8050f2;
+    padding: 0px 10px 20px;
   }
 }
 .img__kBn68 {
@@ -1067,6 +1078,7 @@
     justify-content: flex-start;
     align-items: center;
     background: #8050f2;
+    padding: 0px 10px 20px;
   }
 }
 .img__ofuQu {
@@ -1227,6 +1239,7 @@
     justify-content: flex-start;
     align-items: center;
     background: #8050f2;
+    padding: 0px 10px 20px;
   }
 }
 .img__hcHYg {
@@ -1327,6 +1340,7 @@
     justify-content: flex-start;
     align-items: center;
     background: #8050f2;
+    padding: 0px 10px 20px;
   }
 }
 .img__dOfS6 {
@@ -1427,6 +1441,7 @@
     justify-content: flex-start;
     align-items: center;
     background: #8050f2;
+    padding: 0px 10px 20px;
   }
 }
 .img__lkz1X {
