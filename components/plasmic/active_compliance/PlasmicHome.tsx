@@ -119,6 +119,8 @@ function PlasmicHome__RenderFunc(props: {
             sty.root
           )}
         >
+          <div className={classNames(projectcss.all, sty.freeBox__cPrR)} />
+
           {true ? (
             <section
               className={classNames(projectcss.all, sty.section__mNpN9)}
@@ -142,33 +144,9 @@ function PlasmicHome__RenderFunc(props: {
                           sty.h2__m8Q7E
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                          <React.Fragment>
-                            <React.Fragment>{"Quem "}</React.Fragment>
-                            {
-                              <span
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.span,
-                                  projectcss.__wab_text,
-                                  projectcss.plasmic_default__inline,
-                                  sty.span__lmrgo
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? "somos"
-                                  : "marcas "}
-                              </span>
-                            }
-                            <React.Fragment>{""}</React.Fragment>
-                          </React.Fragment>
-                        ) : (
-                          "Se adeque agora mesmo."
-                        )}
+                        {hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "Se adeque agora mesmo."
+                          : "Se adeque agora mesmo."}
                       </h2>
                     ) : null}
                     {(
@@ -184,33 +162,9 @@ function PlasmicHome__RenderFunc(props: {
                           sty.h2__aFcdJ
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                          <React.Fragment>
-                            <React.Fragment>{"Quem "}</React.Fragment>
-                            {
-                              <span
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.span,
-                                  projectcss.__wab_text,
-                                  projectcss.plasmic_default__inline,
-                                  sty.span__llTzz
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? "somos"
-                                  : "marcas "}
-                              </span>
-                            }
-                            <React.Fragment>{""}</React.Fragment>
-                          </React.Fragment>
-                        ) : (
-                          "Sua empresa em compliance com a LGPD em pouco tempo."
-                        )}
+                        {hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "Sua empresa em compliance com a LGPD em pouco tempo."
+                          : "Sua empresa em compliance com a LGPD em pouco tempo."}
                       </h2>
                     ) : null}
                     {(
@@ -226,33 +180,9 @@ function PlasmicHome__RenderFunc(props: {
                           sty.h2__tJ8S
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                          <React.Fragment>
-                            <React.Fragment>{"Quem "}</React.Fragment>
-                            {
-                              <span
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.span,
-                                  projectcss.__wab_text,
-                                  projectcss.plasmic_default__inline,
-                                  sty.span__h9YMb
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? "somos"
-                                  : "marcas "}
-                              </span>
-                            }
-                            <React.Fragment>{""}</React.Fragment>
-                          </React.Fragment>
-                        ) : (
-                          "A Active Compliance tem a mais completa, transparente e rápida Adequação LGPD. Entre em contato e saiba como trabalhamos.\n"
-                        )}
+                        {hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "A Active Compliance tem a mais completa, transparente e rápida Adequação LGPD. Entre em contato e saiba como trabalhamos.\n"
+                          : "A Active Compliance tem a mais completa, transparente e rápida Adequação LGPD. Entre em contato e saiba como trabalhamos.\n"}
                       </h2>
                     ) : null}
                     {(

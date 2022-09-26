@@ -15,6 +15,18 @@
     padding: 0px;
   }
 }
+.freeBox__cPrR {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
 .section__mNpN9 {
   display: flex;
   position: relative;
@@ -40,10 +52,10 @@
     align-content: stretch;
     height: auto;
     max-width: 100%;
-    background: #8050f2;
+    background: #fcfcfc;
     flex-column-gap: 0px;
     border-radius: 0px;
-    padding: 40px 0px 24px;
+    padding: 40px 0px;
     margin: 0px;
   }
 }
@@ -145,25 +157,14 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .h2__m8Q7E {
-    font-size: 32px;
+    font-size: 15px;
     max-width: 595px;
     align-self: flex-start;
-    line-height: 44px;
-    color: #ffe6ec;
+    line-height: 24px;
+    color: #8050f2;
     display: block;
     padding: 0px;
-    margin: 0px 0px 25px;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .span__lmrgo {
-    background: #ffff49;
-    color: #8050f2;
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    line-height: 44px;
-    border-radius: 32px;
-    padding: 0px 10px;
+    margin: 0px;
   }
 }
 .h2__aFcdJ {
@@ -173,9 +174,9 @@
   max-width: none;
   color: #000000;
   letter-spacing: 0px;
-  font-size: 32px;
+  font-size: var(--token-nhxsC7xgV);
   font-weight: 700;
-  line-height: 44px;
+  line-height: var(--token-vm3pWubtG);
   min-width: 0;
   margin: 12px 0px 0px;
 }
@@ -185,21 +186,10 @@
     max-width: 595px;
     align-self: flex-start;
     line-height: 44px;
-    color: #ffe6ec;
+    color: #000000;
     display: block;
     padding: 0px;
-    margin: 0px 0px 25px;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .span__llTzz {
-    background: #ffff49;
-    color: #8050f2;
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    line-height: 44px;
-    border-radius: 32px;
-    padding: 0px 10px;
+    margin: 12px 0px 0px;
   }
 }
 .h2__tJ8S {
@@ -217,25 +207,14 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .h2__tJ8S {
-    font-size: 32px;
+    font-size: 16px;
     max-width: 595px;
     align-self: flex-start;
-    line-height: 44px;
-    color: #ffe6ec;
+    line-height: 24px;
+    color: #000000;
     display: block;
     padding: 0px;
-    margin: 0px 0px 25px;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .span__h9YMb {
-    background: #ffff49;
-    color: #8050f2;
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    line-height: 44px;
-    border-radius: 32px;
-    padding: 0px 10px;
+    margin: 24px 0px 0px;
   }
 }
 .button___5FglE:global(.__wab_instance) {
@@ -311,7 +290,7 @@
     height: 56px;
     flex-shrink: 0;
     display: flex;
-    margin: 44px 24px 64px;
+    margin: 42px 0px 0px;
   }
 }
 .svg__lq1T {
@@ -350,6 +329,7 @@
   .section__gZzNn {
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
     padding: 0px;
   }
 }
@@ -434,17 +414,17 @@
   max-width: 565px;
   color: #8050f2;
   letter-spacing: 0px;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: var(--token-nhxsC7xgV);
+  line-height: var(--token-vm3pWubtG);
   min-width: 0;
   margin: 0px 0px 18px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .h2___4Hccr {
-    font-size: 24px;
+    font-size: var(--token-nhxsC7xgV);
     max-width: 379px;
     width: auto;
-    line-height: 30px;
+    line-height: var(--token-vm3pWubtG);
     align-self: flex-start;
     margin: 65px 0px 13px;
   }
@@ -668,7 +648,8 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .h1 {
     color: #ffe6ec;
-    text-align: center;
+    text-align: left;
+    align-self: center;
     padding: 0px;
     margin: 0px 20px;
   }
@@ -773,8 +754,9 @@
   text-align: center;
   color: #000000;
   align-self: flex-start;
-  font-size: 32px;
-  line-height: 30px;
+  font-size: var(--token-nhxsC7xgV);
+  line-height: var(--token-vm3pWubtG);
+  letter-spacing: normal;
   min-width: 0;
   padding: 0px;
   margin: 0px 0px 46px;
@@ -1567,15 +1549,16 @@
   color: #000000;
   padding-bottom: 0px;
   align-self: flex-start;
-  font-size: 32px;
-  line-height: 30px;
+  font-size: var(--token-nhxsC7xgV);
+  line-height: var(--token-vm3pWubtG);
+  letter-spacing: normal;
   min-width: 0;
   margin: 0px 0px 46px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .h2__g1SrN {
-    font-size: 32px;
-    line-height: 1.3;
+    font-size: var(--token-nhxsC7xgV);
+    line-height: var(--token-vm3pWubtG);
     max-width: 595px;
     align-self: center;
     margin: 0px;
