@@ -119,7 +119,61 @@ function PlasmicHome__RenderFunc(props: {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__cPrR)} />
+          <div className={classNames(projectcss.all, sty.freeBox__cPrR)}>
+            <div className={classNames(projectcss.all, sty.columns__yzYgh)}>
+              <div className={classNames(projectcss.all, sty.column__o9L)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___1M1Bn)}
+                  displayHeight={"48px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"239px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/active_compliance/images/bd19D579C8D8446FAfb30Ab6C9168805Removebg1Png.png",
+                    fullWidth: 1080,
+                    fullHeight: 1080,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+
+              <div className={classNames(projectcss.all, sty.column__kvr6)}>
+                <div className={classNames(projectcss.all, sty.freeBox__bc7M)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__urzyv
+                    )}
+                    component={Link}
+                    href={`/`}
+                    platform={"nextjs"}
+                  >
+                    {"Sobre"}
+                  </p.PlasmicLink>
+
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__gtkhD
+                    )}
+                    component={Link}
+                    href={"https://www.plasmic.app/" as const}
+                    platform={"nextjs"}
+                  >
+                    {"Contato"}
+                  </p.PlasmicLink>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {true ? (
             <section
