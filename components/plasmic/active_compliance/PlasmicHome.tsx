@@ -350,35 +350,9 @@ function PlasmicHome__RenderFunc(props: {
                         sty.h2___4Hccr
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        <React.Fragment>
-                          <React.Fragment>{"Você já cria "}</React.Fragment>
-                          {
-                            <span
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.span,
-                                projectcss.__wab_text,
-                                projectcss.plasmic_default__inline,
-                                sty.span__pCqBy
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobileOnly"
-                              )
-                                ? " conteúdo "
-                                : " conteúdo "}
-                            </span>
-                          }
-                          <React.Fragment>
-                            {"profissionalmente?"}
-                          </React.Fragment>
-                        </React.Fragment>
-                      ) : (
-                        "Adequação \nLGPD."
-                      )}
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Adequação \nLGPD."
+                        : "Adequação \nLGPD."}
                     </h2>
 
                     <div
@@ -489,7 +463,7 @@ function PlasmicHome__RenderFunc(props: {
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Últimas avaliações"
+                        ? "Para que um projeto de adequação a Lei Geral de Proteção de Dados seja bem-sucedido, é imperativo que a alta gestão tenha conhecimento sobre a importância da lei e se comprometa a aplicá-la na organização."
                         : "Para que um projeto de adequação a Lei Geral de Proteção de Dados seja bem-sucedido, é imperativo que a alta gestão tenha conhecimento sobre a importância da lei e se comprometa a aplicá-la na organização."}
                     </h1>
 
