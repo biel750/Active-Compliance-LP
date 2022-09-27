@@ -262,6 +262,26 @@
           "id": "VA1Qz6wQOi",
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
+        },
+        {
+          "id": "20AYXcDwo0",
+          "name": "ModalWrapper",
+          "componentImportPath": "./components/ModalWrapper"
+        },
+        {
+          "id": "o_mAwoGXzU",
+          "name": "Menu",
+          "componentImportPath": "./components/Menu"
+        },
+        {
+          "id": "gvPx1Ocj9w",
+          "name": "HeaderWrapper",
+          "componentImportPath": "./components/HeaderWrapper"
+        },
+        {
+          "id": "kJHguKP7Ko",
+          "name": "TabsContent",
+          "componentImportPath": "./components/TabsContent"
         }
       ]
     }

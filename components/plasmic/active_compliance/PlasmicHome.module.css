@@ -161,7 +161,7 @@
   height: auto;
   max-width: 100%;
   margin-top: 62px;
-  background: none;
+  background: #fcfcfc;
   min-width: 0;
   border-radius: 24px;
   padding: 0px 10px;
@@ -193,10 +193,10 @@
   flex-wrap: nowrap;
   max-width: 1134px;
   align-self: auto;
-  background: #fcfcfc;
+  background: none;
   min-width: 0;
   border-radius: 24px;
-  padding: 0px 10px 0px 0px;
+  padding: 0px;
   margin: 0px auto;
 }
 .columns__xngoN > :nth-child(2n + 1) {
@@ -706,7 +706,7 @@
   max-width: 100%;
   background: #8050f2;
   min-width: 0;
-  padding: 0px;
+  padding: 0px 10px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__b5CtN {
@@ -726,7 +726,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: #8050f2;
+  background: none;
   min-width: 0;
   padding: 40px 10px;
   margin: 0px;

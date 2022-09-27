@@ -426,8 +426,15 @@ function PlasmicHome__RenderFunc(props: {
               <Reveal
                 data-plasmic-name={"reveal"}
                 data-plasmic-override={overrides.reveal}
+                cascade={
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? false
+                    : false
+                }
                 className={classNames("__wab_instance", sty.reveal)}
-                effect={"zoom" as const}
+                direction={"up" as const}
+                effect={"slide" as const}
+                reverse={false}
                 triggerOnce={false}
               >
                 <section
